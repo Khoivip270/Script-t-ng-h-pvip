@@ -1,0 +1,14 @@
+local lib = loadstring(game:HttpGet("https://pastebin.com/raw/Lsd1JpLT"))()
+local win = lib:CreateWindow("Tổng Hợp Script")
+
+win:Button("Chạy Redz Hub", function()
+    local Settings = {
+    JoinTeam = "Pirates"; -- Pirates / Marines
+    Translator = true;   -- true / false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+end)
+
+win:Button("Chạy Auto Chest", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/ChestsFarm/main/chest"))()
+end)
