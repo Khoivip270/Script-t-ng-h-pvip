@@ -51,3 +51,46 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/h
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
+  
+  AddButton(Tab2o, {
+     Name = "Nat Hub(key)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))();
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Banana hub(free)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "ThundeZ Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/GaG/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "OMG(key)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Maru Hub(free)",
+    Callback = function()
+getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "AnDepZai Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/refs/heads/main/AndepzaiHub.lua"))()
+  end
+  })
