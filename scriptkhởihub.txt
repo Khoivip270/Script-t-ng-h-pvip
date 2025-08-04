@@ -32,6 +32,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script blox Fruit"})
      local Tab2o = MakeTab({Name = "Script gow a gaden"})
+     local Tab3o = MakeTab({Name = "Script CDVN"})
+     local Tab4o = MakeTab({Name = "Script Steel A Brainot"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -99,5 +101,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/h6hbii/AnDepZaiHub/re
      Name = "W-Azure Hub(update)",
     Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "erron",
+    Callback = function()
+
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "lemon hub",
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ffdfeadf0af798741806ea404682a938.lua"))()
   end
   })
