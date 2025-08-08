@@ -124,3 +124,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ffdfeadf0af798
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
+  
+  AddButton(Tab1o, {
+     Name = "Vxezehub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
+  end
+  })
