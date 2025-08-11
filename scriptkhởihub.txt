@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Script gow a gaden"})
      local Tab3o = MakeTab({Name = "Script CDVN"})
      local Tab4o = MakeTab({Name = "Script Steel A Brainot"})
+     local Tab5o = MakeTab({Name = "Script 99 nights in the forest"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -131,3 +132,60 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
   end
   })
+  
+  AddButton(Tab5o, {
+     Name = "Hoho hub(key)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Linux hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LinuxDevBr/99-Nights-In-the-Forest/refs/heads/main/Script.txt"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "AV Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://get-avth-ontop.netlify.app/my-paste/script.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Goa Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nevcit/GOA_HUB/refs/heads/main/99%20Nights%20In%20The%20Forest"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "soluna Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://soluna-script.vercel.app/99-Nights-in-the-Forest.lua",true))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "Speed Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "EF Hub",
+    Callback = function()
+loadstring(game:HttpGet('https://api.exploitingis.fun/loader', true))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "H4x Hub",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+  end
+  })
+  
