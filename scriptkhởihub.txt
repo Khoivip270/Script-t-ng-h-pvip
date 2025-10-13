@@ -32,6 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script blox Fruit"})
      local Tab2o = MakeTab({Name = "Script fix lag"})
+     local Tab3o = MakeTab({Name = "Script severvip"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -80,6 +81,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/h
     Callback = function()
 	repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+  end
+  })
+ 
+ AddButton(Tab3o, {
+     Name = "sever",
+    Callback = function()
+	repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/FreePrivateServer/refs/heads/main/UniversalFreePrivateServerByJoshzz"))()
   end
   })
  
