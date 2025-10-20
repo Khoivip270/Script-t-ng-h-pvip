@@ -95,7 +95,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/Free
   AddButton(Tab1o, {
      Name = "master hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
+	repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
   end
   })
- 
