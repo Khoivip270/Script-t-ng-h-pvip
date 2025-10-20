@@ -97,4 +97,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JoshzzAlteregooo/Free
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/MasterHub.lua"))()
   end
+  })
  
